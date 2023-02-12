@@ -193,7 +193,7 @@ background-color: #000;
 }
 .card-img{
     min-width: 100% ;
-    width: auto;
+    width: 150px;
     height: 100%;
 }
 .card-body{
