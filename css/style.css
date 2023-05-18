@@ -14,7 +14,7 @@ html{
 :root{
     --background-color:#fff;
     --text-color: #000;
-    --title-color:#000;
+    --title-color:#000; 
 }
 .dark-theme{
     --background-color:#0b0b0b;
