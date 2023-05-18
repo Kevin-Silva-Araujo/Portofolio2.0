@@ -9,14 +9,11 @@ function menuShow(){
     }
 }
 //sistema responsivo 
-window.onload =function piscou(){
-    document.getElementById("Kevin.S").style.color = "black"
-    setTimeout(()=>{
-        document.getElementById("Kevin.S").style.transition = "1.6s"
-        document.getElementById("Kevin.S").style.color = "white"
-    },2000)
-}
-
+//botão de escuro ou claro
+const chk = document.getElementById('chk');
+chk.addEventListener('change',()=>{
+    document.body.classList.toggle('dark-theme')
+});
 
 
 
