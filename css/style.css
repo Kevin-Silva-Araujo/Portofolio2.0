@@ -208,6 +208,16 @@ section{
 .titulo h1{
 font-size: 25px;
 }
+#projetins{
+    color: var(--text-color);
+    text-decoration: none;
+}
+#projetins a:Hover{
+    transition: 0.3s;
+    color: #111;
+    font-size: 26px;
+}
+
 .teste{
     display: flex;
     justify-content: center;
@@ -281,6 +291,73 @@ background-color: #000;
    padding: 16px;
    font-weight: 600;
 }
+/*CARD DO PROJECST*/
+#container1{
+    width: 99.80;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card1{
+background-color: #000;
+   width: 300px;
+   height: 460px;
+   margin: 25px;
+ overflow: hidden;
+ box-shadow: 0px 0px 10px #000;
+ border-radius: 50px;
+}
+.card-header1{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.card-img1 {
+    min-width: 100% ;
+    width: 150px;
+    height: 100%;
+}
+#spoty1{
+    aspect-ratio: 4/3;
+    
+}
+.card-body1{
+    height: 170px;
+    padding: 15px;
+    text-align: center;
+}
+.card-local1{
+    color: #fff;
+    font-size: 16px;
+    margin: 10px 0;
+    
+}
+.card-titulo1{
+    font-size: 30px;
+    margin: 15px 0;
+    color: #fff;
+}
+.card-texto1{
+    font-size: 12px;
+    width: 250px;
+    margin: 0 auto;
+    color: #fff;
+}
+.card-footer1{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+.card-footer1 a{
+   color: #000;
+   text-decoration: none;
+   display: block;
+   padding: 16px;
+   font-weight: 600;
+}
+/**/
+
 #tituloH{
     display: flex;
     justify-content: center;
@@ -368,9 +445,10 @@ nav ul.open{
 @media  screen and (max-width: 800px) {
      #header{
         width: 96.60%;
+        color: var(--text-color);
     }
     .menu-btn{
-        color: #fff;
+        color: var(--text-color);
         display:block ;
         padding-right: 100px;
     }
@@ -524,9 +602,9 @@ section, .right p{
        width: 96.60%;
    }
    .menu-btn{
-       color: #fff;
+       color: var(--text-color);
        display:block ;
-       padding-right: 100px;
+       padding-right: 30px;
    }
    h1 {
     text-align: center;
@@ -535,13 +613,14 @@ section, .right p{
    position: fixed;
    top: 60px;
    left: -200%;
-   background-color: #000;
+   background-color: var(--background-color);
    height: 100vh;
-   width: 100%;
+   width: 88%;
    text-align: center;
    display: flex;
    flex-wrap: wrap;
    transition: all 1.3s ease;
+   
   }
   nav ul.open{
    left: 0;
@@ -552,6 +631,7 @@ section, .right p{
   }
   nav ul li a{
    font-size: 23px;
+   color: var(--text-color);
   }
   
 nav ul li a:hover{
@@ -583,14 +663,13 @@ main .E #icone{
    justify-content: space-evenly;
 }
 section , .right h2{
-   font-size: 25px;
+   font-size: 20px;
    
 }
-section, .right p{
-   display: flex;
-   flex-wrap: wrap;
-   font-size: 11.55px;
-  
+.right p{
+    font-size: 12px;
+    font-weight: 900;
+    text-align: start;
 }
 #container{
   width: 99.50%;
@@ -676,12 +755,28 @@ section, .right p{
    padding-top: 50px;
    
 }
-@keyframes float{
-    0%{
-        transform: translateY(0);
-    }50%{
-        transform: translateY(-25px);
-    }100%{
-        transform: translateY(0);
-    }
+
+@media  screen and (max-width: 400px) {
+.right p{
+    font-size: 13px;
+    font-weight: 900;
+    
+}
+#kevin{
+    width: 110px;
+}
+#header{
+    width: 90%;
+    padding-left: 2.75%;
+}
+.text{
+    text-align: center;
+}
+#left{
+display: none;
+}
+body{
+    display: grid;
+    justify-content: center;
+}
 }
