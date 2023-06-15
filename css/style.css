@@ -175,13 +175,32 @@ section{
 }
 .left,.right{
     width: 50%;
-}
- .left , #kevin{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 100%;
+}
+ .left , #kevin{
+   /*
+    border-radius: 50em;
     width: 50%;
+   border: 2px solid #fff;*/
+}
+#kevin{
+width: 350px;
+height: 350px;
+border: 2px solid var(--text-color);
+border-radius:50% ;
+align-items: center;
+background-image: url(/img/Keven.png);
+background-size: 120%;
+background-repeat: no-repeat;
+background-attachment:scroll;
+background-color: var(--background-color);
+
+}
+#kevin:hover{
+    box-shadow: 2px 2px 2px var(--text-color);
+    transition: ease-in-out 0.5s;
 }
 .right{
     width: 50%;
@@ -458,6 +477,10 @@ nav ul.open{
     h1 {
         text-align: center;
     }
+    #kevin{
+        width: 150px;
+        height: 150px;
+    }
    nav ul {
     position: fixed;
     top: 60px;
@@ -599,8 +622,9 @@ section, .right p{
     justify-content: center;
     font-size: 25px;
     padding-top: 50px;
-    
 }
+
+
 @media  screen and (max-width: 600px) {
     #header{
        width: 96.60%;
@@ -768,6 +792,7 @@ section , .right h2{
 }
 #kevin{
     width: 110px;
+    height: 110px;
 }
 #header{
     width: 90%;
