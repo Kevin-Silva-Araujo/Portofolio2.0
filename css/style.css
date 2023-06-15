@@ -179,12 +179,6 @@ section{
     justify-content: center;
     align-items: center;
 }
- .left , #kevin{
-   /*
-    border-radius: 50em;
-    width: 50%;
-   border: 2px solid #fff;*/
-}
 #kevin{
 width: 350px;
 height: 350px;
