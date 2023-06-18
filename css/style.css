@@ -476,12 +476,12 @@ nav ul.open{
         height: 150px;
     }
    nav ul {
-    position: fixed;
+    position: absolute;
     top: 60px;
     left: -200%;
     background-color: var(--background-color);
     height: 100vh;
-    width: 100%;
+    width: 90%;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -632,17 +632,16 @@ section, .right p{
     text-align: center;
 }
   nav ul {
-   position: fixed;
+   position:absolute;
    top: 60px;
    left: -200%;
    background-color: var(--background-color);
    height: 100vh;
-   width: 88%;
+   width: 90%;
    text-align: center;
    display: flex;
    flex-wrap: wrap;
    transition: all 1.3s ease;
-   
   }
   nav ul.open{
    left: 0;
@@ -650,6 +649,7 @@ section, .right p{
   nav ul li{
    width: 100%;
    margin: 50PX 0;
+
   }
   nav ul li a{
    font-size: 23px;
