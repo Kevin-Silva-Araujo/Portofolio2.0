@@ -239,6 +239,7 @@ font-size: 25px;
 .teste{
     display: flex;
     justify-content: center;
+    text-align: center;
     font-size: 18px;
 }
 #project{
@@ -288,13 +289,13 @@ font-size: 25px;
 #pokedex{
     background-image: url(/img/pokedex.jpg);
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: cover;
    
   }
  #spotify{
     background-image: url(/img/spotify.webp);
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: cover;
     background-position: center;
     
  }
@@ -302,7 +303,7 @@ font-size: 25px;
     background-image: url(/img/cadastro.webp);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 111%;
+    background-size: cover;
  } 
   .card-body {
     margin: 13px 0 0 10px;
@@ -444,14 +445,16 @@ nav ul.open{
     left: -200%;
     background-color: var(--background-color);
     height: 100vh;
-    width: 90%;
+    width: 86%;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     transition: all 1.3s ease;
+    box-shadow: 2px 2px 2px 2px var(--text-color);
    }
    nav ul.open{
     left: 0;
+    width: 87%;
    }
    nav ul li{
     width: 100%;
@@ -504,6 +507,7 @@ section, .right p{
    height: 100rem;
    display: flex;
    flex-direction: column-reverse;
+   justify-content: center;
    
 
 }
@@ -540,13 +544,30 @@ section, .right p{
     font-weight: 900;
     
 }
-@media screen  and (max-width: 420px) {
+@media screen  and (max-width: 420px){
+    #container{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .card{
         display: flex;
         flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        width: 40%;
+        height: 40%
     }
     .card-body{
         font-size: 11px;
+    }
+    .right {
+        display: flex;
+        flex-direction: column;
+        text-align: end;
+        
     }
 }
 @media  screen and (max-width: 600px) {
