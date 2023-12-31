@@ -8,6 +8,7 @@ function menuShow(){
         ul.classList.add('open')
     }
 }
+
 //sistema responsivo 
 //botão de escuro ou claro
 const chk = document.getElementById('chk');
@@ -70,12 +71,3 @@ gsap.fromTo("#icone",
 {opacity:1,y:0,ease: "power3.out", duration:2,delay:3}
 );
 });
-   
-    
-
-
-
-
-
-
-
