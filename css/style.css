@@ -215,7 +215,6 @@ section{
     align-items: center;
     font-size: 45px;
     font-weight: 200;
-    text-shadow: 2px 4px 10px #c9c9c9;
 }
 .right p{
     text-align: start;
@@ -339,7 +338,7 @@ color: var(--title-color);
     height: 150px;
     border-radius: 14px;
     object-fit: cover;
-    box-shadow: 1px 2px 6px var(--text-color);
+    box-shadow: 1px 1px 3px var(--text-color);
 }
 .projeto-text{
     font-size: 15px;
@@ -430,9 +429,7 @@ main .E{
 }
 section .left{
     display: none;
-    
 }
-
 main .E #icone{
     display: flex;
     justify-content: space-evenly;
@@ -449,9 +446,7 @@ section, .right p{
 .teste p{
     display: flex;
     justify-content: center;
-    
 }
-
 #S{
     width: 100%;
 }

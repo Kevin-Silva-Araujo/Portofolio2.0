@@ -70,4 +70,5 @@ gsap.fromTo("#icone",
 {opacity:0,y:10,},
 {opacity:1,y:0,ease: "power3.out", duration:2,delay:3}
 );
+
 });
